@@ -1,0 +1,25 @@
+@media (min-width: 992px) {
+    body > header nav {
+        display: block;
+        position: static;
+        height: initial;
+        width: initial;
+        background-color: initial;
+
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    header .icon {
+        display: none;
+    }
+}
+
+@media (min-width: 1400px) {
+    .features .tickets-container {
+        background-size: contain;
+    }
+}
